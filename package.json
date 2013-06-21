@@ -1,0 +1,38 @@
+{
+  "name": "ukc-tiles",
+  "description": "Generate map tiles of crag locations from UKC",
+  "private": true,
+  "version": "0.1.0",
+  "homepage": "https://github.com/stevoland/ukc-tiles",
+  "author": {
+    "name": "stevo (Stephen Collings)",
+    "email": "stevoland@gmail.com",
+    "url": "http://stevoland.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevoland/ukc-tiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevoland/ukc-tiles/issues"
+  },
+  "main": "src/app",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "mapnik": "*",
+    "ukc-models": "git+https://github.com/stevoland/ukc-models.git"
+  },
+  "devDependencies": {
+    "hotnode": "*",
+    "sinon": "~1.7.2",
+    "chai": "~1.6.0",
+    "sinon-chai": "~2.4.0",
+    "mocha": "~1.10.0"
+  },
+  "keywords": [],
+  "scripts": {
+    "test": "mocha -r test/setup --recursive"
+  }
+}
