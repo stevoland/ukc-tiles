@@ -21,11 +21,12 @@
     "node": "*"
   },
   "dependencies": {
+    "ukc-models": "git+https://github.com/stevoland/ukc-models.git",
     "mapnik": "*",
-    "ukc-models": "git+https://github.com/stevoland/ukc-models.git"
+    "generic-pool": "~2.0.3"
   },
   "devDependencies": {
-    "hotnode": "*",
+    "hotnode": "0.0.8",
     "sinon": "~1.7.2",
     "chai": "~1.6.0",
     "sinon-chai": "~2.4.0",
